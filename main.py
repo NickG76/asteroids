@@ -1,5 +1,6 @@
 import pygame
 from constants import *
+from player import Player
 
 def main():
     # print("Starting Asteroids!")
@@ -15,9 +16,11 @@ def main():
                 pygame.quit()
                 return
         screen.fill("black")
-        pygame.display.flip()
         dt += pygame.time.Clock().tick(60) / 1000
-        print(f"Delta Time: {dt:.2f} seconds")
+        player = Player(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
+
+        player.draw(screen)
+        pygame.display.flip()
     
 
 if __name__ == "__main__":
