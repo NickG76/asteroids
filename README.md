@@ -4,7 +4,7 @@
 This is my astseroid game I created with boot.dev
 
 #
-# Pre-requisites
+# Prerequisites
 You will need to install python 3 and pip, use these commands in your linux or WSL terminal (please see documentation on how to install with mac or windows native terminal)
 
 
