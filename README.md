@@ -33,6 +33,10 @@ Setup
 cd location/to/asteroids/
 source venv/bin/activate
 ```
+Exit
+```bash
+deactivate 
+```
 ## How to Run
 To run the game, use
 ```bash
